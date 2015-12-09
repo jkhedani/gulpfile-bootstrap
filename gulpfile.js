@@ -5,7 +5,6 @@ var uglify = require('gulp-uglify');
 var webserver = require('gulp-webserver');
 
 var gutil = require('gulp-util');
-var sourcemaps = require('gulp-sourcemaps');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
 var watchify = require('watchify');
